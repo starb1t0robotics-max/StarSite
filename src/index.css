@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+
+@theme {
+  --color-dark: #000000; 
+  --breakpoint-mxl: 80rem; /* 1280px, for 15.6-16" screens */
+  --breakpoint-bxl: 100rem; /* 1600px */
+  --breakpoint-txl: 120rem; /* 1920px, for 27" screens */
+  --breakpoint-qxl: 160rem; /* 2560px, for 32" screens */
+}
